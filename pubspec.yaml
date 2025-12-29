@@ -1,0 +1,59 @@
+name: fixoratry
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^0.13.6
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.1
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.1
+  sqflite: ^2.3.0
+  intl: ^0.18.1
+  syncfusion_flutter_pdf: ^20.4.54
+  image_picker: ^1.1.1
+
+
+
+  # ✅ Use only Syncfusion for viewing + highlighting PDFs
+  syncfusion_flutter_pdfviewer: ^20.4.54
+
+  # ✅ Keep this ONLY if you really need raw text extraction
+  # If not required, comment it out to avoid conflicts
+  # pdf_text: ^0.5.0
+
+  blur: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.0
+  build_runner: ^2.3.3
+  flutter_lints: ^3.0.1   # ✅ aligned with Flutter 3.x
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/fixora_logo.png
+    - assets/data/syllubas.json
+    - assets/data/PHY11.pdf
+    - assets/data/BIO11.pdf
+    - assets/data/CHEM11.pdf
+    - assets/images/logomentora.png
+    - assets/images/logo.png
+    - assets/data/quiz.json
+    - assets/data/PHY12.pdf
+    - assets/data/CHEM12.pdf
+    - assets/images/default_avatar.jpg
+    - assets/data/BIO12.pdf
+    - assets/data/MATH11.pdf
+    - assets/data/MATH12.pdf

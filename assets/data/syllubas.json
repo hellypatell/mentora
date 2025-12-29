@@ -1,0 +1,750 @@
+{ "11": {
+  "subjects": [
+    {
+      "id": "1",
+      "name": "Physics",
+      "chapters": [
+        {
+          "id": "1",
+          "name": "Units and Measurement",
+          "topics": [
+            {
+              "id": "1",
+              "title": "What is Unit?",
+              "content": "A unit is a defined standard used to measure and express physical quantities such as length, mass, and time. It provides a reference that ensures uniformity and consistency in measurement. The International System of Units (SI) is the globally accepted standard, consisting of seven base units, including meter (m) for length, kilogram (kg) for mass, and second (s) for time."
+            },
+            {
+              "id": "2",
+              "title": "Errors in Measurement",
+              "content": "Errors are the differences between the true value of a physical quantity and the value obtained during measurement. They arise due to limitations of instruments, environmental factors, or human mistakes. Errors are mainly classified into two types: systematic and random errors. Systematic errors occur consistently in one direction due to faulty instruments, incorrect calibration, or consistent observational mistakes. Random errors, on the other hand, are unpredictable variations that occur when measurements are repeated under the same conditions. Minimizing errors improves the accuracy and reliability of experimental results."
+            },
+            {
+              "id": "3",
+              "title": "Significant Figures",
+              "content": "Significant figures are the digits in a measurement that convey meaningful information about its precision. They consist of all the digits known with certainty plus the first uncertain or doubtful digit. The number of significant figures indicates the accuracy and reliability of a measurement. For example, in 12.36 cm, the digits 1, 2, and 3 are certain, while 6 is the doubtful digit, giving four significant figures. The basic rules for identifying significant figures are: (1) All non-zero digits are significant. (2) Zeros between non-zero digits are significant. (3) Leading zeros (before the first non-zero digit) are not significant. (4) Trailing zeros are significant only if they appear after a decimal point. (5) In scientific notation, all digits in the coefficient are significant. These rules help ensure consistency and accuracy in reporting measured quantities."
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Motion in a Straight Line",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Displacement",
+              "content": "Displacement is the shortest distance between the initial and final positions of an object in a specific direction. It is a vector quantity, meaning it has both magnitude and direction. Displacement differs from distance because distance measures the total path covered, while displacement only depends on the initial and final points. For example, if an object moves 5 meters east and then 3 meters west, its total distance is 8 meters, but its displacement is 2 meters east. Displacement can be positive, negative, or zero depending on the direction of motion."
+            },
+            {
+              "id": "2",
+              "title": "Velocity and Acceleration",
+              "content": "Velocity is the rate of change of displacement with respect to time, representing how fast and in what direction an object moves. It is a vector quantity and can be uniform (constant velocity) or non-uniform (changing velocity). The formula is v = Δx/Δt. Acceleration is the rate of change of velocity with respect to time, showing how quickly an object’s velocity changes. It is also a vector quantity. If the velocity increases, acceleration is positive (acceleration), and if it decreases, acceleration is negative (deceleration). The formula is a = Δv/Δt."
+            },
+            {
+              "id": "3",
+              "title": "Equations of Motion",
+              "content": "The equations of motion describe the relationship between displacement, velocity, acceleration, and time for a body moving with uniform acceleration. These equations are derived from basic kinematic principles and are applicable only when acceleration remains constant. The three main equations are: (1) v = u + at, which gives the final velocity (v) after time (t) when starting with an initial velocity (u) and constant acceleration (a); (2) s = ut + ½at², which gives the displacement (s) covered in time (t); and (3) v² – u² = 2as, which relates velocity directly to displacement without involving time. These equations are fundamental in solving motion problems in one dimension, such as free fall, vehicle motion, and projectile motion under constant acceleration."
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Motion in a Plane",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Vector Representation",
+              "content": "In two-dimensional motion, physical quantities such as position, displacement, and velocity are represented as vectors. A vector is a quantity that has both magnitude and direction. The position of an object is described using position vectors, usually represented in terms of x and y components. Displacement is the change in position vector, showing how far and in what direction an object has moved. Velocity is the rate of change of displacement and can also be broken into horizontal (vx) and vertical (vy) components. Vector addition, subtraction, and resolution into components are key mathematical operations used to analyze motion in two dimensions."
+            },
+            {
+              "id": "2",
+              "title": "Projectile Motion",
+              "content": "Projectile motion refers to the motion of an object that is projected into the air and moves under the influence of gravity in two dimensions. The path followed by a projectile is parabolic, as it has both horizontal and vertical components of motion. The horizontal motion has constant velocity because there is no acceleration in that direction, while the vertical motion has uniform acceleration due to gravity. Important equations include range (R = u²sin2θ/g), maximum height (H = u²sin²θ/2g), and time of flight (T = 2usinθ/g). Examples include the motion of a ball thrown at an angle or a bullet fired horizontally from a gun."
+            },
+            {
+              "id": "3",
+              "title": "Relative Velocity",
+              "content": "Projectile motion refers to the motion of an object that is projected into the air and moves under the influence of gravity in two dimensions. The path followed by a projectile is parabolic, as it has both horizontal and vertical components of motion. The horizontal motion has constant velocity because there is no acceleration in that direction, while the vertical motion has uniform acceleration due to gravity. Important equations include range (R = u²sin2θ/g), maximum height (H = u²sin²θ/2g), and time of flight (T = 2usinθ/g). Examples include the motion of a ball thrown at an angle or a bullet fired horizontally from a gun."
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Laws of Motion",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Newton's First Law",
+              "content": "Newton's First Law of Motion, also known as the Law of Inertia, states that a body continues to remain in its state of rest or uniform motion in a straight line unless acted upon by an external unbalanced force. This means that if the net force on an object is zero, there will be no change in its velocity. The law defines inertia as the natural tendency of objects to resist any change in their state of motion. For example, when a moving vehicle suddenly stops, passengers tend to lurch forward due to their inertia. This law helps explain why seat belts are necessary and forms the foundation for understanding the concept of force and equilibrium."
+            },
+            {
+              "id": "2",
+              "title": "Newton's Second Law",
+              "content": "Newton's Second Law of Motion states that the force acting on a body is equal to the rate of change of its momentum with respect to time. Mathematically, it is expressed as F = dp/dt, where p represents momentum (the product of mass and velocity). For a body with constant mass, this equation simplifies to F = ma, where 'F' is the net force, 'm' is the mass, and 'a' is the acceleration produced. This law establishes the quantitative relationship between force and acceleration — a greater force results in greater acceleration for the same mass. It also implies that for a given force, lighter objects accelerate more than heavier ones. The Second Law provides the basis for defining the unit of force, the newton (N), which is the force required to accelerate a 1 kg mass by 1 m/s²."
+            },
+            {
+              "id": "3",
+              "title": "Newton's Third Law",
+              "content": "Newton's Third Law of Motion states that for every action, there is an equal and opposite reaction. This means that forces always occur in pairs — when one body exerts a force on another, the second body exerts an equal force in the opposite direction on the first. These forces act on different bodies and therefore do not cancel each other out. For example, when you push a wall, the wall pushes back with an equal force; when a gun is fired, the bullet moves forward while the gun recoils backward. This law explains the principle of propulsion used in walking, swimming, flying, and rocket motion, where the backward push (action) generates an equal forward motion (reaction)."
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Work, Energy and Power",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Work",
+              "content": "Work is done when a force moves an object in the direction of the force. W = F·d·cosθ."
+            },
+            {
+              "id": "2",
+              "title": "Kinetic and Potential Energy",
+              "content": "Kinetic energy is energy of motion. Potential energy is stored energy due to position."
+            },
+            {
+              "id": "3",
+              "title": "Power",
+              "content": "Rate at which work is done. P = W/t."
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "System of Particles and Rotational Motion",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Center of Mass",
+              "content": "Point representing the mean position of the mass of a system of particles."
+            },
+            {
+              "id": "2",
+              "title": "Moment of Inertia",
+              "content": "Measure of an object's resistance to rotational motion."
+            },
+            {
+              "id": "3",
+              "title": "Torque",
+              "content": "Rotational equivalent of force. τ = r × F."
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "name": "Gravitation",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Newton’s Law of Gravitation",
+              "content": "Every mass attracts every other mass with a force proportional to the product of masses and inversely proportional to the square of distance."
+            },
+            {
+              "id": "2",
+              "title": "Acceleration due to Gravity",
+              "content": "g = GM/R², acceleration of a body due to Earth’s gravity."
+            },
+            {
+              "id": "3",
+              "title": "Orbital Motion",
+              "content": "Motion of planets and satellites under gravitational attraction."
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "name": "Mechanical Properties of Solids",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Elasticity",
+              "content": "Ability of a body to regain its original shape after deformation."
+            },
+            {
+              "id": "2",
+              "title": "Stress and Strain",
+              "content": "Stress is force per unit area, strain is deformation per unit length."
+            },
+            {
+              "id": "3",
+              "title": "Hooke’s Law",
+              "content": "Within elastic limit, stress is proportional to strain."
+            }
+          ]
+        },
+        {
+          "id": "9",
+          "name": "Mechanical Properties of Fluids",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Pressure in Fluids",
+              "content": "Pressure = force per unit area, transmitted equally in all directions in a fluid."
+            },
+            {
+              "id": "2",
+              "title": "Buoyancy",
+              "content": "Upthrust on an object immersed in fluid. Archimedes principle."
+            },
+            {
+              "id": "3",
+              "title": "Viscosity",
+              "content": "Resistance of fluid to flow."
+            }
+          ]
+        },
+        {
+          "id": "10",
+          "name": "Thermal Properties of Matter",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Temperature and Heat",
+              "content": "Temperature measures hotness/coldness. Heat is energy transferred due to temperature difference."
+            },
+            {
+              "id": "2",
+              "title": "Specific Heat Capacity",
+              "content": "Amount of heat required to raise 1 kg of substance by 1 K."
+            },
+            {
+              "id": "3",
+              "title": "Thermal Expansion",
+              "content": "Change in dimensions of a body with temperature."
+            }
+          ]
+        },
+        {
+          "id": "11",
+          "name": "Thermodynamics",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Zeroth Law",
+              "content": "If two systems are each in thermal equilibrium with a third, they are in equilibrium with each other."
+            },
+            {
+              "id": "2",
+              "title": "First Law",
+              "content": "ΔU = Q – W; change in internal energy equals heat added minus work done."
+            },
+            {
+              "id": "3",
+              "title": "Second Law",
+              "content": "Heat cannot spontaneously flow from cold to hot body. Entropy of isolated system never decreases."
+            }
+          ]
+        },
+        {
+          "id": "12",
+          "name": "Kinetic Theory",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Assumptions",
+              "content": "Gas consists of large number of molecules in random motion. Negligible volume of molecules."
+            },
+            {
+              "id": "2",
+              "title": "Equation of State",
+              "content": "PV = nRT for ideal gases."
+            },
+            {
+              "id": "3",
+              "title": "Kinetic Energy",
+              "content": "Average kinetic energy of molecules is proportional to temperature."
+            }
+          ]
+        },
+        {
+          "id": "13",
+          "name": "Oscillations",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Simple Harmonic Motion",
+              "content": "Motion about mean position with acceleration proportional to displacement."
+            },
+            {
+              "id": "2",
+              "title": "Period and Frequency",
+              "content": "Period is time for one oscillation, frequency is number of oscillations per second."
+            },
+            {
+              "id": "3",
+              "title": "Energy in SHM",
+              "content": "Sum of kinetic and potential energy remains constant."
+            }
+          ]
+        },
+        {
+          "id": "14",
+          "name": "Waves",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Wave Motion",
+              "content": "Propagation of disturbance from one point to another without transport of matter."
+            },
+            {
+              "id": "2",
+              "title": "Types of Waves",
+              "content": "Mechanical waves: require medium; Electromagnetic waves: no medium required."
+            },
+            {
+              "id": "3",
+              "title": "Wave Equation",
+              "content": "v = fλ, relates speed, frequency, and wavelength of wave."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Chemistry",
+      "chapters": [
+        {
+          "id": "1",
+          "name": "Some Basic Concepts of Chemistry",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Introduction",
+              "content": "Science can be viewed as a continuing human effort to systematize knowledge for describing and understanding nature. You have learned in your previous classes that we come across diverse substances present in nature and changes in them in daily life."
+            },
+            {
+              "id": "2",
+              "title": "Matter and Its Classification",
+              "content": "Matter is anything that has mass and occupies space. It exists in three states: solid, liquid, and gas. Matter can be classified into pure substances and mixtures."
+            },
+            {
+              "id": "3",
+              "title": "Law of Constant Proportions",
+              "content": "The law states that a chemical compound always contains the same elements in the same proportions by mass, regardless of the source or method of preparation."
+            },
+            {
+              "id": "4",
+              "title": "Mole Concept",
+              "content": "The mole is the amount of substance that contains as many entities as there are in 12 grams of carbon-12. It is used to count entities at the atomic and molecular scale."
+            },
+            {
+              "id": "5",
+              "title": "Molar Mass",
+              "content": "The molar mass of a substance is the mass of one mole of its entities (atoms, molecules, ions, etc.). It is numerically equal to the molecular or formula mass expressed in grams."
+            },
+            {
+              "id": "6",
+              "title": "Empirical and Molecular Formulas",
+              "content": "The empirical formula represents the simplest whole-number ratio of elements in a compound. The molecular formula shows the actual number of atoms of each element in a molecule."
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Structure of Atom",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Introduction",
+              "content": "The concept of the atom has evolved over time. Early models were proposed by philosophers, and later, scientific theories provided a more accurate understanding."
+            },
+            {
+              "id": "2",
+              "title": "Discovery of Electron",
+              "content": "The electron was discovered by J.J. Thomson in 1897 through his cathode ray tube experiments, leading to the development of the plum pudding model of the atom."
+            },
+            {
+              "id": "3",
+              "title": "Rutherford's Model",
+              "content": "Ernest Rutherford proposed a model in 1911 where the atom consists of a small, dense nucleus surrounded by electrons, based on his gold foil experiment."
+            },
+            {
+              "id": "4",
+              "title": "Bohr's Model",
+              "content": "Niels Bohr introduced a model in 1913 where electrons revolve in fixed orbits around the nucleus, with quantized energy levels."
+            },
+            {
+              "id": "5",
+              "title": "Quantum Mechanical Model",
+              "content": "This model, developed by Schrödinger and others, describes electrons in terms of probability distributions rather than fixed orbits."
+            },
+            {
+              "id": "6",
+              "title": "Subatomic Particles",
+              "content": "Atoms are composed of subatomic particles: protons, neutrons, and electrons, each with distinct properties."
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Classification of Elements and Periodicity in Properties",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Early Attempts at Classification",
+              "content": "Early scientists attempted to classify elements based on their properties, leading to the development of early periodic tables."
+            },
+            {
+              "id": "2",
+              "title": "Mendeleev's Periodic Table",
+              "content": "Dmitri Mendeleev arranged elements in order of increasing atomic mass, leading to the periodic law and the prediction of undiscovered elements."
+            },
+            {
+              "id": "3",
+              "title": "Modern Periodic Law",
+              "content": "The modern periodic law states that the properties of elements are periodic functions of their atomic numbers."
+            },
+            {
+              "id": "4",
+              "title": "Periodic Table Layout",
+              "content": "The modern periodic table is arranged into periods (rows) and groups (columns), with elements having similar properties placed in the same group."
+            },
+            {
+              "id": "5",
+              "title": "Periodic Trends",
+              "content": "Properties such as atomic radius, ionization energy, electron affinity, and electronegativity exhibit periodic trends across periods and groups."
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Chemical Bonding and Molecular Structure",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Chemical Bonding",
+              "content": "Chemical bonding involves the attraction between atoms to form molecules, leading to the formation of compounds."
+            },
+            {
+              "id": "2",
+              "title": "Ionic Bonding",
+              "content": "Ionic bonds form when electrons are transferred from one atom to another, resulting in the formation of oppositely charged ions."
+            },
+            {
+              "id": "3",
+              "title": "Covalent Bonding",
+              "content": "Covalent bonds form when two atoms share one or more pairs of electrons, leading to the formation of molecules."
+            },
+            {
+              "id": "4",
+              "title": "Bond Parameters",
+              "content": "Bond length, bond angle, and bond energy are important parameters that describe the characteristics of chemical bonds."
+            },
+            {
+              "id": "5",
+              "title": "Hybridization",
+              "content": "Hybridization is the concept of mixing atomic orbitals to form new hybrid orbitals that can form covalent bonds."
+            },
+            {
+              "id": "6",
+              "title": "Molecular Orbital Theory",
+              "content": "Molecular orbital theory describes the bonding in molecules in terms of molecular orbitals formed by the combination of atomic orbitals."
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Chemical Thermodynamics",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Introduction",
+              "content": "Thermodynamics is the study of energy changes during chemical reactions and physical processes."
+            },
+            {
+              "id": "2",
+              "title": "First Law of Thermodynamics",
+              "content": "The first law states that energy cannot be created or destroyed, only transformed from one form to another."
+            },
+            {
+              "id": "3",
+              "title": "Enthalpy",
+              "content": "Enthalpy is a thermodynamic quantity that represents the heat content of a system."
+            },
+            {
+              "id": "4",
+              "title": "Heat Capacity and Specific Heat",
+              "content": "Heat capacity is the amount of heat required to raise the temperature of a substance, while specific heat is the heat capacity per unit mass."
+            },
+            {
+              "id": "5",
+              "title": "Hess's Law",
+              "content": "Hess's law states that the total enthalpy change of a reaction is the sum of the enthalpy changes of the steps into which the reaction can be divided."
+            },
+            {
+              "id": "6",
+              "title": "Spontaneity of Reactions",
+              "content": "The spontaneity of a reaction is determined by the change in Gibbs free energy, with negative values indicating spontaneous reactions."
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Equilibrium",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Dynamic Nature of Equilibrium",
+              "content": "At equilibrium, the rate of the forward reaction equals the rate of the reverse reaction, resulting in no net change in the concentrations of reactants and products."
+            },
+            {
+              "id": "2",
+              "title": "Law of Chemical Equilibrium",
+              "content": "The law states that at a given temperature, the ratio of the concentrations of products to reactants is constant at equilibrium."
+            },
+            {
+              "id": "3",
+              "title": "Le Chatelier's Principle",
+              "content": "Le Chatelier's principle states that if a system at equilibrium is disturbed, the system will shift in the direction that counteracts the disturbance."
+            },
+            {
+              "id": "4",
+              "title": "Equilibrium Constant",
+              "content": "The equilibrium constant is a numerical value that expresses the ratio of the concentrations of products to reactants at equilibrium."
+            },
+            {
+              "id": "5",
+              "title": "Applications of Equilibrium",
+              "content": "Equilibrium concepts are applied in various chemical processes, including the Haber process and the contact process."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Biology",
+      "chapters": [
+        {
+          "id": "1",
+          "name": "The Living World",
+          "topics": [
+            {
+              "id": "1",
+              "title": "What is Living?",
+              "content": "Living organisms have certain characteristics like growth, reproduction, metabolism, and response to stimuli that distinguish them from non-living things."
+            },
+            {
+              "id": "2",
+              "title": "Diversity in the Living World",
+              "content": "There is enormous diversity in living organisms in terms of size, shape, habitat, and mode of life."
+            },
+            {
+              "id": "3",
+              "title": "Need for Classification",
+              "content": "Classification helps in organizing and identifying organisms systematically and understanding evolutionary relationships."
+            },
+            {
+              "id": "4",
+              "title": "Taxonomic Aids",
+              "content": "Taxonomic aids such as herbarium, botanical gardens, and museums help in the identification and classification of organisms."
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "name": "Biological Classification",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Five Kingdom Classification",
+              "content": "Organisms are classified into five kingdoms: Monera, Protista, Fungi, Plantae, and Animalia based on cell structure, mode of nutrition, and body organization."
+            },
+            {
+              "id": "2",
+              "title": "Monera",
+              "content": "Monera includes prokaryotic organisms like bacteria and cyanobacteria with unicellular organization."
+            },
+            {
+              "id": "3",
+              "title": "Protista",
+              "content": "Protista are eukaryotic, mostly unicellular organisms including protozoa and some algae."
+            },
+            {
+              "id": "4",
+              "title": "Fungi",
+              "content": "Fungi are eukaryotic, heterotrophic organisms that reproduce via spores and absorb nutrients from their surroundings."
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Plant Kingdom",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Algae",
+              "content": "Algae are simple, photosynthetic, mostly aquatic organisms with varied forms from unicellular to multicellular."
+            },
+            {
+              "id": "2",
+              "title": "Bryophytes",
+              "content": "Bryophytes are non-vascular land plants like mosses and liverworts that require water for reproduction."
+            },
+            {
+              "id": "3",
+              "title": "Pteridophytes",
+              "content": "Pteridophytes are vascular plants like ferns that reproduce via spores and have true roots, stems, and leaves."
+            },
+            {
+              "id": "4",
+              "title": "Gymnosperms",
+              "content": "Gymnosperms are seed-producing vascular plants with naked seeds, e.g., cycads, conifers, and Ginkgo."
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Animal Kingdom",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Classification of Animals",
+              "content": "Animals are classified into phyla based on body symmetry, coelom type, segmentation, and developmental patterns."
+            },
+            {
+              "id": "2",
+              "title": "Porifera",
+              "content": "Porifera are sponges with porous bodies and a simple organization, mostly aquatic and sessile."
+            },
+            {
+              "id": "3",
+              "title": "Cnidaria",
+              "content": "Cnidarians have radial symmetry, a gastrovascular cavity, and specialized stinging cells called cnidocytes."
+            },
+            {
+              "id": "4",
+              "title": "Platyhelminthes",
+              "content": "Platyhelminthes are flatworms with bilateral symmetry and organ system level organization."
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Morphology of Flowering Plants",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Roots",
+              "content": "Roots anchor the plant, absorb water and minerals, and store food in some plants."
+            },
+            {
+              "id": "2",
+              "title": "Stems",
+              "content": "Stems support leaves, flowers, and fruits, and conduct water and nutrients through vascular tissues."
+            },
+            {
+              "id": "3",
+              "title": "Leaves",
+              "content": "Leaves are the main photosynthetic organs and have adaptations for various functions."
+            },
+            {
+              "id": "4",
+              "title": "Flowers",
+              "content": "Flowers are reproductive structures, consisting of sepals, petals, stamens, and carpels."
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Anatomy of Flowering Plants",
+          "topics": [
+            {
+              "id": "1",
+              "title": "Tissues",
+              "content": "Tissues are groups of cells with similar structure and function. They are classified into meristematic and permanent tissues."
+            },
+            {
+              "id": "2",
+              "title": "Root Anatomy",
+              "content": "Root anatomy includes epidermis, cortex, endodermis, and vascular bundles for absorption and conduction."
+            },
+            {
+              "id": "3",
+              "title": "Stem Anatomy",
+              "content": "Stem anatomy includes epidermis, cortex, vascular bundles, and pith to support the plant and transport nutrients."
+            },
+            {
+              "id": "4",
+              "title": "Leaf Anatomy",
+              "content": "Leaf anatomy shows upper and lower epidermis, mesophyll, veins, and stomata for photosynthesis and gas exchange."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+},
+  "12": {
+    "subjects": [
+      {
+        "id": "1",
+        "name": "Physics",
+        "chapters": [
+          {
+            "id": "1",
+            "name": "Electrostatics",
+            "topics": [
+              { "id": "1", "title": "Coulomb's Law", "content": "Force between two point charges is directly proportional to the product of charges and inversely proportional to the square of distance." },
+              { "id": "2", "title": "Electric Field", "content": "Region around a charge where it exerts force on other charges." }
+            ]
+          },
+          {
+            "id": "2",
+            "name": "Current Electricity",
+            "topics": [
+              { "id": "1", "title": "Ohm's Law", "content": "Current through a conductor is directly proportional to voltage and inversely proportional to resistance." },
+              { "id": "2", "title": "Kirchhoff's Laws", "content": "Laws governing the conservation of current and energy in electrical circuits." }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Chemistry",
+        "chapters": [
+          {
+            "id": "1",
+            "name": "Solid State",
+            "topics": [
+              { "id": "1", "title": "Crystal Lattices", "content": "3D arrangement of atoms, ions, or molecules in a crystal." },
+              { "id": "2", "title": "Unit Cell", "content": "Smallest repeating unit of a crystal lattice." }
+            ]
+          },
+          {
+            "id": "2",
+            "name": "Solutions",
+            "topics": [
+              { "id": "1", "title": "Concentration Terms", "content": "Molality, molarity, mole fraction, and percentage composition of solutions." },
+              { "id": "2", "title": "Colligative Properties", "content": "Properties that depend on the number of solute particles, not their nature." }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Biology",
+        "chapters": [
+          {
+            "id": "1",
+            "name": "Reproduction",
+            "topics": [
+              { "id": "1", "title": "Sexual Reproduction", "content": "Involves fusion of male and female gametes to form zygote." },
+              { "id": "2", "title": "Asexual Reproduction", "content": "Reproduction without gamete fusion, e.g., binary fission, budding." }
+            ]
+          },
+          {
+            "id": "2",
+            "name": "Genetics",
+            "topics": [
+              { "id": "1", "title": "Mendelian Inheritance", "content": "Laws of inheritance discovered by Gregor Mendel using pea plants." },
+              { "id": "2", "title": "Chromosomes", "content": "Thread-like structures carrying genetic information in the form of DNA." }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+
